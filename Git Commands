@@ -1,0 +1,34 @@
+Examples;
+Initialize repo locally
+git init
+git remote add origin https://github.com/<YOUR_USERNAME>/mpk_streamlit.git
+
+# Add files and commit individually
+git add mpk_config.py
+git commit -m "Add configuration file with VIP login codes and RSS feed links"
+
+git add mpk_memory.py
+git commit -m "Add VIP memory storage module for uploads (JSON-based)"
+
+git add mpk_rss.py
+git commit -m "Add RSS feed parsing module for live headline updates"
+
+git add mpk_utils.py
+git commit -m "Add VIP login validation and memory summarization utility"
+
+git add mpk_main.py
+git commit -m "Add main Streamlit app with VIP login, upload, memory, 3-P summary, and RSS news"
+
+git add requirements.txt
+git commit -m "Add Python dependencies"
+
+git add README.md
+git commit -m "Add project README with description and launch instructions"
+
+git add LICENSE.md
+git commit -m "Add MIT License with Ethical Clause"
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
+
