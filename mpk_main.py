@@ -3,6 +3,7 @@ mpk_main.py
 # Main Streamlit MPK Engine
 # ----------------------------
 import streamlit as st
+from mpk_main.py
 from mpk_memory import save_upload, load_memory
 from mpk_rss import fetch_rss_headlines
 from mpk_utils import validate_vip, summarize_memory
