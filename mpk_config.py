@@ -1,4 +1,4 @@
-mpk_config.py
+
 # ----------------------------
 # MPK Engine Configuration
 # ----------------------------
